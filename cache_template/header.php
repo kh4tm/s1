@@ -305,10 +305,8 @@ display: block;
 
 $d=strtotime("Monday");
 $e= date("Y-m-d", $d)  ;
-
 $day=date("Y-m-d ") ;
 
-/*
 if(trim($e)==trim($day)){
 ?>
 <div id="popup1" class="overlay">
@@ -323,7 +321,6 @@ font-size: x-large;
 
 	<a href="https://line.me/R/ti/p/%40lui8121o" class="popup-sportpool" target="_blank">
 		<img src="http://doball.com/img/bannerdoball.png" />
-
 	</a>
 
 
@@ -334,8 +331,7 @@ font-size: x-large;
 </div>
 </div>
 <?php
-
-}else{*/
+}else{
 $n = rand(1,3);
 
 if($n=='1'){
@@ -434,6 +430,6 @@ font-size: x-large;
 
 	</div>
 </div>
-</div> <?}/*}*/
+</div> <?}}
 ?>
 <!-- start: marquee -->
